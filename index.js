@@ -21,12 +21,12 @@ function currentLine(katzDeli){
   var current = [];
   var i = 0;
   while (i <katzDeli.length){
-    current.push([i+1]+`. `  + katzDeli[i] + ' ');
+    current.push(' ' + [i+1]+`. `  + katzDeli[i]);
     i++;
   }
   if (i === 0){
     return("The line is currently empty.");
   } else{
-    return(`The line is currently: ${current}`);
+    return(`The line is currently:${current}`);
   }
 }
