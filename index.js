@@ -20,6 +20,11 @@ function nowServing(katzDeli){
 function currentLine(katzDeli){
   current = [];
   while (i <katzDeli.length){
-    
+    i++;
+  }
+  if (i === 0){
+    return("The line is currently empty.");
+  } else{
+    return(`The line is currently. )
   }
 }
