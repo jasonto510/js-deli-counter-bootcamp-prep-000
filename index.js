@@ -20,6 +20,7 @@ function nowServing(katzDeli){
 function currentLine(katzDeli){
   current = [];
   while (i <katzDeli.length){
+    current.push(' ' + [])
     i++;
   }
   if (i === 0){
